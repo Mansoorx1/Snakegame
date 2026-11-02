@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pond Snake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Pond Snake</h1>
+    <p class="scores">Score <strong id="score">0</strong> &nbsp; Best <strong id="best">0</strong></p>
+    <div class="board">
+      <canvas id="game" width="400" height="400"></canvas>
+      <div id="overlay">
+        <p id="message">Eat the koi. Don't hit the edge or yourself.</p>
+        <button id="start">Start game</button>
+      </div>
+    </div>
+    <p class="hint">Arrow keys or WASD to steer. Space to pause. On a phone, swipe.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
